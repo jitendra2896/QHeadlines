@@ -1,0 +1,62 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+    <string name="app_name">Q Headlines</string>
+
+    <string-array name="news_providers">
+        <item android:id="@+id/bbc_sport">BBC Sport</item>
+        <item android:id="@+id/cric_info">ESPN Cric Info</item>
+        <item android:id="@+id/business_insider">"Business Insider"</item>
+        <item android:id="@+id/fortune">Fortune</item>
+        <item android:id="@+id/cnn">CNN</item>
+        <item android:id="@+id/google_news">Google News</item>
+        <item android:id="@+id/polygon">Polygon</item>
+        <item android:id="@+id/mtv">MTV</item>
+        <item android:id="@+id/espn">ESPN</item>
+        <item android:id="@+id/techcrunch">TechCrunch</item>
+        <item android:id="@+id/the_new_york_times">The New York Times</item>
+        <item android:id="@+id/the_times_of_india">The Times of India</item>
+    </string-array>
+
+    <string-array name="default_news_preferance_values">
+        <item>bbc-sport</item>
+        <item>espn-cric-info</item>
+        <item>business-insider</item>
+        <item>fortune</item>
+        <item>cnn</item>
+        <item>google-news</item>
+        <item>polygon</item>
+        <item>mtv-news</item>
+        <item>espn</item>
+        <item>techcrunch</item>
+        <item>the-new-york-times</item>
+        <item>the-times-of-india</item>
+    </string-array>
+
+    <string-array name="view_layouts">
+        <item>Card View</item>
+        <item>List View</item>
+    </string-array>
+
+    <string-array name="view_layouts_values">
+        <item>card_view</item>
+        <item>list_view</item>
+    </string-array>
+
+    <string name="settings_label">Settings</string>
+    <string name="saved_news_label">Saved News</string>
+    <string name="default_news_list_preference_title">Default News Source</string>
+    <string name="default_news_list_preference_summary">Choose your default news source</string>
+    <string name="default_view">Default View</string>
+    <string name="view_layouts_summary">Choose how news is displayed</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string name="popup_menu_save">Save</string>
+    <string name="popup_menu_share">Share</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

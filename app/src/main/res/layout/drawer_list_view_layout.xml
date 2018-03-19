@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="24sp"
+    android:textColor="#111111"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Hello how are you"
+    android:fontFamily="sans-serif-smallcaps"
+    android:paddingLeft="10dp"
+    android:paddingBottom="12dp"
+    android:paddingTop="12dp"
+    android:id="@+id/hello"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

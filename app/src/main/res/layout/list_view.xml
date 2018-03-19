@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:cardElevation="5dp">-->
+
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/news_image_view"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="11dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/card_view_different_states" />
+
+    <LinearLayout
+        android:id="@+id/inner_linear_layout"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="7dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="17sp"
+            android:id="@+id/headline_text_view"
+            android:textColor="@android:color/black"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:text="Default Headline"/>
+
+        <TextView
+            android:id="@+id/additional_information_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:layout_marginRight="16dp"
+            android:paddingBottom="10dp"
+            android:textSize="13sp"
+            android:maxLines="2"
+            android:textColor="@android:color/darker_gray"
+            android:text="Default additional information"
+            android:lineSpacingExtra="8sp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_popup_menu_button"
+            android:background="@null"
+            android:paddingBottom="4dp"
+            android:layout_gravity="right"
+            android:paddingRight="13dp"
+            android:paddingLeft="13dp"
+            android:src="@drawable/ic_action_more_horiz"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+    <View
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1E000000"
+        />
+</LinearLayout>
+<!--
+</android.support.v7.widget.CardView>-->

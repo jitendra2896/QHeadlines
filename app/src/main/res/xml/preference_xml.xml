@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="cnn"
+        android:entries="@array/news_providers"
+        android:entryValues="@array/default_news_preferance_values"
+        android:title="@string/default_news_list_preference_title"
+        android:summary="@string/default_news_list_preference_summary"
+        android:key="default_news"
+        />
+
+    <ListPreference
+        android:defaultValue="card_view"
+        android:entries="@array/view_layouts"
+        android:entryValues="@array/view_layouts_values"
+        android:title="@string/default_view"
+        android:summary="@string/view_layouts_summary"
+        android:key="default_view_layouts"
+        />
+</PreferenceScreen>

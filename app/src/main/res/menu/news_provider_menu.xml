@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Settings"
+        android:id="@+id/settings_menu_id"
+        android:orderInCategory="100"/>
+    <item android:title="Saved News"
+        android:id="@+id/saved_news_menu_id"
+        android:orderInCategory="200"/>
+    <item android:title="Dummy Notification"
+        android:id="@+id/dummy_notification_menu_id"
+        android:orderInCategory="400"/>
+</menu>

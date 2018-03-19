@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:background="#FFF"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/id_saved_news_headline_text_view"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="5dp"
+        android:text="Default Headline"/>
+
+    <TextView
+        android:id="@+id/id_saved_news_additional_description_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:maxLines="2"
+        android:textColor="@android:color/darker_gray"
+        android:text="Default additional information"
+        android:lineSpacingExtra="8sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingBottom="10dp"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/id_saved_news_source_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="5dp"
+        android:text="SOURCE: BBC -Sport" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_saved_news_date_text_view"
+        android:layout_alignParentRight="true"
+        android:textSize="12sp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="5dp"
+        android:text="23/28/2017"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#1E000000"/>
+</LinearLayout>

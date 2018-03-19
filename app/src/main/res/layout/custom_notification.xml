@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/id_custom_notification_image_view"
+        android:layout_width="100dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:id="@+id/id_custom_notification_headline_text_view"
+        android:layout_marginLeft="5dp"
+        android:textSize="17sp"
+        android:layout_toRightOf="@id/id_custom_notification_image_view"
+        android:text="This is a dummy headline that is also going to span two lines"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a dummy description but longer and may span two lines"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/id_custom_notification_description_text_view"
+
+        android:layout_toRightOf="@id/id_custom_notification_image_view"
+        android:layout_below="@id/id_custom_notification_headline_text_view"/>
+</RelativeLayout>
